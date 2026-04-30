@@ -1,4 +1,4 @@
-# FlowGuard — Reproducibility Guide
+# FlowGuard
 
 ## CCS 2026 Artifact Evaluation
 

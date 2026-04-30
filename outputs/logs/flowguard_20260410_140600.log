@@ -1,0 +1,121 @@
+[14:06:00] flowguard — INFO — FlowGuard v1.0.0 — REAL UPLOADED DATASETS
+[14:06:00] flowguard — INFO — PHASE 1: Loading Real Datasets
+[14:06:00] flowguard.datasets — INFO — SmartBugs Curated: loaded 143 contracts
+[14:06:01] flowguard.datasets — INFO — sc_vuln: loaded 74 unique contracts
+[14:06:01] flowguard.datasets — INFO — ScrawlD: 9252 addresses, 5664 labeled (no source code)
+[14:06:01] flowguard — INFO — Blacklist: removed 4 hanging contracts
+[14:06:01] flowguard — INFO — Real Contracts with Source Code
+[14:06:01] flowguard — INFO —   SmartBugs: 142 contracts
+[14:06:01] flowguard — INFO —   SC Vuln:    71 contracts
+[14:06:01] flowguard — INFO —   TOTAL:     213 contracts
+[14:06:01] flowguard — INFO — Vulnerability Labels (no source)
+[14:06:01] flowguard — INFO —   ScrawlD:   5664 contracts
+[14:06:01] flowguard — INFO —     ARTHM: 3956
+[14:06:01] flowguard — INFO —     LE: 1696
+[14:06:01] flowguard — INFO —     TimeO: 1106
+[14:06:01] flowguard — INFO —     RENT: 654
+[14:06:01] flowguard — INFO —     TimeM: 145
+[14:06:01] flowguard — INFO —     UE: 18
+[14:06:01] flowguard — INFO —     TX-Origin: 5
+[14:06:01] flowguard — INFO — Enum-bearing (STG candidates)
+[14:06:01] flowguard — INFO —   SmartBugs enum: 1
+[14:06:01] flowguard — INFO —   sc_vuln enum:    71
+[14:06:01] flowguard — INFO —   TOTAL enum:     72
+[14:06:01] flowguard — INFO — PHASE 2: Workflow Annotation Layer
+[14:06:29] flowguard — INFO — Annotated: 72 enum-bearing contracts
+[14:06:29] flowguard — INFO —   With workflow (STG built): 33
+[14:06:29] flowguard — INFO —   With FG findings:           29
+[14:06:29] flowguard — INFO —   FG distribution: {'FG-1': 18, 'FG-3': 20, 'FG-4': 9, 'FG-7': 1}
+[14:06:29] flowguard — INFO —   By dataset (with findings): {'sc_vuln': 29}
+[14:06:29] flowguard — INFO —   Review priority: {'low': 4, 'high': 13, 'medium': 16}
+[14:06:29] flowguard — INFO — PHASE 3: Augmentation (taxonomy completeness)
+[14:06:29] flowguard.annotation — INFO — Augmentation base pool: 72 real enum-bearing contracts
+[14:06:29] flowguard.annotation — INFO — Generated 5 FG1 augmentations
+[14:06:29] flowguard.annotation — INFO — Generated 5 FG2 augmentations
+[14:06:29] flowguard — INFO — Generated 10 augmented contracts (DERIVED from real)
+[14:06:29] flowguard — INFO — PHASE 4: Static Analysis
+[14:07:07] flowguard — INFO — Static analysis on 223 contracts:
+[14:07:07] flowguard — INFO —   Parsed:        223/223
+[14:07:07] flowguard — INFO —   With STG:      39
+[14:07:07] flowguard — INFO —   With findings: 34
+[14:07:07] flowguard — INFO —   SmartBugs:  0 STGs / 0 with findings
+[14:07:07] flowguard — INFO —   SC Vuln:     33 STGs / 29 with findings
+[14:07:07] flowguard — INFO —   Augmented:  6 STGs / 5 with findings
+[14:07:07] flowguard — INFO —   Findings by category: {'FG-1': 48, 'FG-3': 26, 'FG-4': 19, 'FG-7': 3, 'FG-2': 1}
+[14:07:07] flowguard — INFO — PHASE 5: Behavioural Analysis (real-STG-derived)
+[14:07:10] flowguard — INFO — Generated 2300 traces from 30 real STGs
+[14:07:15] flowguard — INFO — Feature matrix: (2300, 36)
+[14:07:15] flowguard — INFO — PHASE 6: Anomaly + Trust + Fusion
+[14:07:16] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:07:17] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:07:19] flowguard — INFO —   isolation_forest: mean=0.280
+[14:07:19] flowguard — INFO —   autoencoder: mean=0.369
+[14:07:19] flowguard — INFO —   lof: mean=0.037
+[14:07:19] flowguard — INFO —   xgboost: mean=0.574
+[14:07:19] flowguard — INFO —   ensemble: mean=0.430
+[14:07:20] flowguard — INFO — Correlation rules: {'CR7': 132, 'CR1': 90, 'CR5': 114, 'CR3': 14, 'CR4': 3}
+[14:07:20] flowguard — INFO — PHASE 7: Experiments
+[14:07:20] flowguard.experiments — INFO — E1: Static Detection Effectiveness
+[14:07:58] flowguard.experiments — INFO — E1 complete: 39/223 contracts have STGs, 97 total findings
+[14:07:58] flowguard.experiments — INFO — E2: SmartBugs Complementarity
+[14:08:06] flowguard.experiments — INFO — E2 complete: analyzed 142 SmartBugs contracts
+[14:08:06] flowguard.experiments — INFO — E3: Behavioral Detection
+[14:08:06] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:06] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:06] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:07] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:07] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:08] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:08] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:09] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:09] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:10] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:11] flowguard.experiments — INFO — E3 complete: 5-fold CV on 2300 samples
+[14:08:11] flowguard.experiments — INFO — E4: Fusion Benefit (KEY EXPERIMENT)
+[14:08:11] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:11] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:12] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:12] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:13] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:14] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:14] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:15] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:15] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:16] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:19] flowguard.experiments — INFO — E4 complete: fusion lift = -0.2277, p = 1.0000
+[14:08:19] flowguard.experiments — INFO — E5: Correlation Validity
+[14:08:19] flowguard.experiments — INFO — E6: Scalability
+[14:08:26] flowguard.experiments — INFO — E6 complete: mean total static = 0.0649s, 96.7% under 1s
+[14:08:26] flowguard.experiments — INFO — E7: Ablation Study
+[14:08:26] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:27] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:28] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:29] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:30] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:31] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:32] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:33] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:34] flowguard.anomaly — INFO — Fitting ensemble anomaly detectors...
+[14:08:35] flowguard.anomaly — INFO — PyTorch not available — using numpy autoencoder fallback
+[14:08:36] flowguard.experiments — INFO — E7 complete: full F1=0.4198
+[14:08:36] flowguard.experiments — INFO — All results saved to outputs\results
+[14:08:36] flowguard — INFO — PHASE 8: Figures + Report
+[14:08:36] flowguard.figures — INFO — Saved figure: outputs\figures\fig1_detection_by_category.pdf
+[14:08:37] flowguard.figures — INFO — Saved figure: outputs\figures\fig1_detection_by_category.png
+[14:08:37] flowguard.figures — INFO — Saved figure: outputs\figures\fig2_behavioral_comparison.pdf
+[14:08:37] flowguard.figures — INFO — Saved figure: outputs\figures\fig2_behavioral_comparison.png
+[14:08:37] flowguard.figures — INFO — Saved figure: outputs\figures\fig3_fusion_benefit.pdf
+[14:08:38] flowguard.figures — INFO — Saved figure: outputs\figures\fig3_fusion_benefit.png
+[14:08:38] flowguard.figures — INFO — Saved figure: outputs\figures\fig4_scalability.pdf
+[14:08:38] flowguard.figures — INFO — Saved figure: outputs\figures\fig4_scalability.png
+[14:08:38] flowguard.figures — INFO — Saved figure: outputs\figures\fig5_ablation.pdf
+[14:08:39] flowguard.figures — INFO — Saved figure: outputs\figures\fig5_ablation.png
+[14:08:39] flowguard.figures — INFO — Saved figure: outputs\figures\fig6_risk_distribution.pdf
+[14:08:39] flowguard.figures — INFO — Saved figure: outputs\figures\fig6_risk_distribution.png
+[14:08:39] flowguard.figures — INFO — All figures generated in outputs\figures
+[14:08:39] flowguard — INFO — FlowGuard COMPLETE
+[14:08:39] flowguard — INFO —   Real contracts: 213 (142 SmartBugs + 71 SCVuln)
+[14:08:39] flowguard — INFO —   ScrawlD labels: 5664
+[14:08:39] flowguard — INFO —   Augmented (derived): 10
+[14:08:39] flowguard — INFO —   STGs extracted: 39
+[14:08:39] flowguard — INFO —   Behavioural traces: 2300

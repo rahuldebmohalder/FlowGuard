@@ -1,0 +1,157 @@
+# FlowGuard Configuration
+# Artifact — Default Settings
+
+project:
+  name: "FlowGuard"
+  version: "1.0.0"
+  random_seed: 42
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  labels: "data/labels"
+  outputs: "outputs"
+  results: "outputs/results"
+  reports: "outputs/reports"
+  figures: "outputs/figures"
+  logs: "outputs/logs"
+
+datasets:
+  smartbugs:
+    url: "https://github.com/smartbugs/smartbugs-curated"
+    local_dir: "data/raw/smartbugs"
+    categories:
+      - reentrancy
+      - access_control
+      - arithmetic
+      - unchecked_low_level_calls
+      - denial_of_service
+      - bad_randomness
+      - front_running
+      - time_manipulation
+      - short_addresses
+      - other
+
+  scrawld:
+    url: "https://github.com/sujeetc/ScrawlD"
+    local_dir: "data/raw/scrawld"
+
+  smart-contract-vulnerability:
+    dataset_id: "tranduongminhdai/smart-contract-vulnerability-datset"
+    local_dir: "data/raw/kaggle"
+
+# ── Static Analysis Constants ──────────────────────────────────
+
+static_analysis:
+  parser:
+    primary: "slither"          # "slither" or "regex"
+    fallback: "regex"
+    solidity_versions: ["0.4", "0.5", "0.6", "0.7", "0.8"]
+
+  stg:
+    min_states: 2
+    max_states: 50              # skip mega-contracts for tractability
+    graph_format: "gml"
+
+  detectors:
+    enabled:
+      - FG1_bypass
+      - FG2_guard_inconsistency
+      - FG3_missing_reset
+      - FG4_implicit_dependency
+      - FG5_dead_state
+      - FG6_deadlock
+      - FG7_privilege_escalation
+      - FG8_temporal_ordering
+
+    severity_weights:
+      FG1: 0.95
+      FG2: 0.85
+      FG3: 0.80
+      FG4: 0.75
+      FG5: 0.60
+      FG6: 0.70
+      FG7: 0.90
+      FG8: 0.65
+
+# ── Behavioral Analysis Constants ──────────────────────────────
+
+behavioral:
+  feature_count: 32
+  feature_categories:
+    transaction_pattern: [0, 7]     # indices 0-7
+    state_interaction: [8, 15]      # indices 8-15
+    role_access: [16, 23]           # indices 16-23
+    value_economic: [24, 31]        # indices 24-31
+
+  trust_weights:
+    w1_reputation: 0.28
+    w2_consistency: 0.32
+    w3_engagement: 0.25
+    w4_anomaly: 0.30
+
+  detection_threshold: 0.65
+
+  anomaly_models:
+    isolation_forest:
+      n_estimators: 200
+      contamination: 0.05
+      ensemble_weight: 0.35
+    xgboost:
+      n_estimators: 150
+      max_depth: 6
+      learning_rate: 0.1
+      ensemble_weight: 0.45
+    autoencoder:
+      hidden_dims: [32, 16, 8, 16, 32]
+      epochs: 100
+      batch_size: 64
+      ensemble_weight: 0.20
+    lof:
+      n_neighbors: 20
+      # LOF is standalone baseline, not in ensemble
+
+  simulation:
+    benign_count: 800
+    adversarial_count: 200
+    min_tx_per_address: 10
+    max_tx_per_address: 500
+    time_window_blocks: 100
+
+# ── Fusion Constants ───────────────────────────────────────────
+
+fusion:
+  alpha: 0.40     # static weight
+  beta: 0.35      # behavioral weight
+  gamma: 0.25     # correlation weight
+
+  correlation_rules:
+    CR1: { static: "FG1", behavioral: "BE1", boost: 0.30 }
+    CR2: { static: "FG2", behavioral: "BE2", boost: 0.25 }
+    CR3: { static: "FG4", behavioral: "BE3", boost: 0.20 }
+    CR4: { static: "FG7", behavioral: "BE4", boost: 0.35 }
+    CR5: { static: "FG3", behavioral: "BE1", boost: 0.25 }
+    CR6: { static: "FG8", behavioral: "BE5", boost: 0.20 }
+    CR7: { static: "ANY", behavioral: "BE2", boost: 0.40 }
+    CR8: { static: "FG6", behavioral: "BE6", boost: 0.15 }
+
+# ── Experiment Settings ────────────────────────────────────────
+
+experiments:
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+  n_folds: 5
+  bootstrap_iterations: 1000
+  significance_level: 0.01
+
+  elliptic:
+    temporal_split_step: 34
+
+figures:
+  dpi: 300
+  format: "pdf"
+  style: "seaborn-v0_8-whitegrid"
+  font_size: 12
+  figsize_single: [8, 6]
+  figsize_double: [14, 6]

@@ -1,0 +1,45 @@
+{
+  "smartbugs": {
+    "total": 142,
+    "with_enum": 1,
+    "by_swc": {
+      "access_control": 17,
+      "arithmetic": 15,
+      "bad_randomness": 8,
+      "denial_of_service": 6,
+      "front_running": 4,
+      "other": 3,
+      "reentrancy": 31,
+      "short_addresses": 1,
+      "time_manipulation": 5,
+      "unchecked_low_level_calls": 52
+    }
+  },
+  "sc_vuln": {
+    "total": 71,
+    "with_enum": 71,
+    "by_label": {
+      "reentrancy": 30,
+      "dangerous delegatecall": 5,
+      "integer overflow": 1,
+      "timestamp dependency": 24,
+      "block number dependency": 9,
+      "ether strict equality": 2
+    }
+  },
+  "scrawld": {
+    "total_addresses": 9252,
+    "labeled_contracts": 5664,
+    "vulnerability_distribution": {
+      "LE": 1696,
+      "RENT": 654,
+      "ARTHM": 3956,
+      "TimeO": 1106,
+      "TimeM": 145,
+      "UE": 18,
+      "TX-Origin": 5
+    }
+  },
+  "total_real_with_source": 213,
+  "total_enum_bearing": 72
+}

@@ -1,0 +1,27 @@
+{
+  "CR7": {
+    "trigger_count": 132,
+    "mean_fused_score": 0.502077952709343,
+    "std_fused_score": 0.22550469016793245
+  },
+  "CR1": {
+    "trigger_count": 90,
+    "mean_fused_score": 0.7339070696673775,
+    "std_fused_score": 0.07263079197460422
+  },
+  "CR5": {
+    "trigger_count": 114,
+    "mean_fused_score": 0.6814322751944344,
+    "std_fused_score": 0.09199547013790085
+  },
+  "CR3": {
+    "trigger_count": 14,
+    "mean_fused_score": 0.730300228134222,
+    "std_fused_score": 0.02077481179381728
+  },
+  "CR4": {
+    "trigger_count": 3,
+    "mean_fused_score": 0.6974679005982853,
+    "std_fused_score": 0.02312864430360627
+  }
+}

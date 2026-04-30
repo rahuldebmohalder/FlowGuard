@@ -1,0 +1,151 @@
+[
+  {
+    "rank": 1,
+    "contract_id": "kg_d260612bd717",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-3"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 2,
+    "contract_id": "kg_59e2a243ff9b",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-3"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 3,
+    "contract_id": "kg_eaaebcb18bf2",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 4,
+    "contract_id": "kg_5b48b45c42ff",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-3"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 5,
+    "contract_id": "kg_01585b6ec1bb",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-7"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 6,
+    "contract_id": "kg_7d0c398264c2",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 7,
+    "contract_id": "kg_b463f6306f54",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 8,
+    "contract_id": "kg_4145f01120ea",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 9,
+    "contract_id": "kg_5ed8e1877520",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 10,
+    "contract_id": "kg_68aa9db55f07",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 11,
+    "contract_id": "kg_e4747c2afa8c",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 12,
+    "contract_id": "kg_b412e8686fb5",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  },
+  {
+    "rank": 13,
+    "contract_id": "kg_04016c320066",
+    "dataset": "sc_vuln",
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "manual_label": "TODO: TP / FP / Uncertain"
+  }
+]

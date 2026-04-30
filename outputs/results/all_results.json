@@ -1,0 +1,2288 @@
+{
+  "E1": {
+    "contracts_analyzed": 223,
+    "contracts_with_stg": 39,
+    "findings_by_category": {
+      "FG-1": 48,
+      "FG-3": 26,
+      "FG-4": 19,
+      "FG-7": 3,
+      "FG-2": 1
+    },
+    "per_contract": [
+      {
+        "contract_id": "sb_bbbdb5367463",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_784009c07589",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_d918731cebdd",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_d210fc21c6fd",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_a1a505f4d254",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_a4c6ab0924fe",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_ee0df823e630",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_5bdf79f5c756",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_ca6d797c809a",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_8525b9c841c6",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_3016dcfca805",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_a4c33aa1b035",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_07ab4f0b502c",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_8cfc8702a1a0",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_3bf849eea5a2",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_6f5e18f2dbfb",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_5ec3d85c76b1",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_5765dccd66c7",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_3b0317da6075",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_0ca34ef4d8e1",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_a55236719706",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_7f05171b2d6c",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_abecfbc6b745",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_ca5393038228",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_487adeb218dc",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_b4751ff85a66",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_2467c66a24f7",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_641f6d9e0a4f",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_ebeff1cc498b",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_1f079a3b8bb6",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_3de6aef9e910",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_2d5ef1bfd7cb",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_35fddfbd32c2",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_5cd651cfdea6",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_d27ca8263b12",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_597dbc64af9d",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_0228289d9aa9",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_fcacbdf48076",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_2128ca050946",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_6171f7c92d5a",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_85952d4855d8",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_4f6960a84c3d",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_3ea414a7d282",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_53dcfd96beb6",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_d0d1d9c65414",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_74fecd9a7e34",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_2945981f9e38",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_ff02571525b0",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_3cf407b311e3",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_10a78792f4f1",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_1336f802d8a5",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_03a03f323371",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_6a7e5b5d3698",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_0196d033850b",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_bcd0fdfad9f6",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_97a35d9e5941",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_16b738d378a6",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_7ba4aa075db5",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_295dba1924e8",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_5bb1f99cb610",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_abaee4488075",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_df9a3f0d481d",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_14de5808a50f",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_dafac629c62d",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_3f826e89f8ac",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_810460102ccb",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_cd74aa8fc17e",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_1e976e2c8b7b",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_602cf4476aff",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_59ebd4fa5520",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_c759773107c6",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_de734bd2aa98",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_b7adb5de46b0",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_63d14a7dd1a1",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_bffe7255c351",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_5675bc25a679",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_78ebf8f92bb9",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_32a61297b7da",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_438fda72fcc6",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_e507ae792671",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_5569c2a65ebe",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_98b4c8b45c2e",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_40ffea56c722",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_15724a9aecd2",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_71314df3e4ae",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_ae857a540336",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_290568dbb990",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_e8a01542ffe1",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_618aed944205",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_52fa5d86b7ee",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_cd990cb200f2",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_25e13af95fec",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_fe2fb0a0e173",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_b9c32c34e06c",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_580b0f56fdf0",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_09a3eae97339",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_9d63f8963eb9",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_e90a79d67f37",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_dd5cf99587e4",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_e5d6223f6436",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_5161d297128e",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_d933f98498dd",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_1d9d1408bc11",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_84a947d088b9",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_893c008c441e",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_db71d5e85c2a",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_bfb5d42d860b",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_5b41104af199",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_c6e4d50e5007",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_34da8b64840b",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_bbf1dd05a6ff",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_9f1449fd8917",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_46e60df27d49",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_f8732ecafa80",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_fce9f579b52d",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_f0d0b48698d5",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_66c7aa0650cb",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_c6174237895a",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_ae39534d2ae5",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_136fd223b0f3",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_f4027fba48f1",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_4b990db48734",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_64d7c11b6118",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_649cc3600798",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_02d87a04b0f1",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_7a928eb369da",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_bd7c5fd3d764",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_d04b4b0d5f1d",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_b8270bcb7021",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_ecca3afcd93e",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_bfb8fc0f56cb",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_0d66a0ef0dc4",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_e0371b2aacec",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_f9f50fa4d68e",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_1c6155494f39",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_1711ebd83906",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_244b9e1877bc",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_42df68b79df9",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_3d70aaab853a",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_09c8886de37a",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_bae5ad84f4a5",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "sb_ac992f26a8a5",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_d65a20e36bb3",
+        "has_stg": true,
+        "states": 4,
+        "edges": 3,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_aa50e74e8484",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_44090f040d0e",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_d260612bd717",
+        "has_stg": true,
+        "states": 5,
+        "edges": 3,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Proposed' via function 'createProposal'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Passed' via function 'finishProposalVoting'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Executed' via function 'executeProposal'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Executed' via 'executeProposal' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_a4b23277ccac",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_57748f20a714",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_59e2a243ff9b",
+        "has_stg": true,
+        "states": 5,
+        "edges": 3,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Proposed' via function 'createProposal'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Passed' via function 'finishProposalVoting'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Executed' via function 'executeProposal'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Executed' via 'executeProposal' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_47d2cea56aec",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_4315a1c804c6",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_ebe6f9a7e97a",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Finished' via 'finishPresale' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_4219abdc067e",
+        "has_stg": true,
+        "states": 2,
+        "edges": 1,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'ICO' via 'startICO' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_9d75784a9335",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_ecaabcd884d9",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_f1d8062d66ee",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_eaaebcb18bf2",
+        "has_stg": true,
+        "states": 4,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'AwaitingTokens' via function 'Distribution'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Done' via function 'doDistributionRange'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'AwaitingTokens' via 'Distribution' does not reset value-bearing state",
+            "confidence": 0.7
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable 'contributors.length' used in workflow guards is accessible from unguarded function 'doDistributionRange'",
+            "confidence": 0.65
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_686671a6ac36",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_bab5c02cef59",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_017d747df01b",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_72e56082535d",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_8c2ebbd677b0",
+        "has_stg": true,
+        "states": 29,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'stage5' via function 'changeStage'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'completed' via function 'completeStatus'",
+            "confidence": 0.95
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_768839c73b10",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_1be0d31c3fcc",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_bdc5b9a02948",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_f5a751933fa0",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_5b48b45c42ff",
+        "has_stg": true,
+        "states": 5,
+        "edges": 3,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Proposed' via function 'createProposal'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Passed' via function 'finishProposalVoting'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Executed' via function 'executeProposal'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Executed' via 'executeProposal' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_bcf8a8fbb887",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_7863036b7f25",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_cb3b1d1a0122",
+        "has_stg": true,
+        "states": 3,
+        "edges": 1,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'erWinner' via function 'winnerDecided'",
+            "confidence": 0.95
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_a0fec05e38bb",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_e459ecff0cc5",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_fdecf8a41873",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_a1693fb96e60",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_9e0339ffecc7",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_7936540f8879",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_5e58ddf7a0e7",
+        "has_stg": true,
+        "states": 5,
+        "edges": 3,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_d239d4425013",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_01585b6ec1bb",
+        "has_stg": true,
+        "states": 5,
+        "edges": 5,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Canceled' via function 'cancelPayment'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Paid' via 'collectPayment' does not reset value-bearing state",
+            "confidence": 0.7
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Paid' via 'approvePayment' does not reset value-bearing state",
+            "confidence": 0.7
+          },
+          {
+            "category": "FG-7",
+            "severity": 0.9,
+            "description": "Privilege escalation: state 'Paid' requires privileged access via ['approvePayment'] but is also reachable via unprivile",
+            "confidence": 0.85
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_f8c3f992056d",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_7b7f1764c212",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_fdaf0fa7538f",
+        "has_stg": true,
+        "states": 5,
+        "edges": 1,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_36cce373c38e",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_49a1d5c351b9",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_0a9aebf5e803",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_8ce06c53e9ef",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_89460aac456a",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_7d0c398264c2",
+        "has_stg": true,
+        "states": 4,
+        "edges": 3,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'PREICO' via function 'start_PREICO'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'ICO' via function 'start_ICO'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'ENDED' via function 'end_ICO'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'PREICO' via 'start_PREICO' does not reset value-bearing state",
+            "confidence": 0.7
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'ICO' via 'start_ICO' does not reset value-bearing state",
+            "confidence": 0.7
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable 'now' used in workflow guards is accessible from unguarded function 'end_ICO'",
+            "confidence": 0.65
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_de0a9f8c2bb3",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'CLOSED' via 'close' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_63f378ce703f",
+        "has_stg": true,
+        "states": 3,
+        "edges": 1,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Closed' via function 'finalize'",
+            "confidence": 0.95
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_8f998fa7dd6f",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_b463f6306f54",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Expired' via function 'emergencyStop'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Funded' via function 'buyTokens'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Funded' via 'buyTokens' does not reset value-bearing state",
+            "confidence": 0.7
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable '_beneficiary' used in workflow guards is accessible from unguarded function 'buyTokens'",
+            "confidence": 0.65
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_e9b557cec673",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_4145f01120ea",
+        "has_stg": true,
+        "states": 5,
+        "edges": 5,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'AuctionDeployed' via function 'DutchAuction'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'AuctionSetUp' via function 'setup'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'AuctionStarted' via function 'startAuction'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'AuctionEnded' via function 'finalizeAuction'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'TokensDistributed' via function 'proxyClaimTokens'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable '_walletAddress' used in workflow guards is accessible from unguarded function 'DutchAuction'",
+            "confidence": 0.65
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable '_tokenAddress' used in workflow guards is accessible from unguarded function 'setup'",
+            "confidence": 0.65
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable 'missingFunds' used in workflow guards is accessible from unguarded function 'finalizeAuction'",
+            "confidence": 0.65
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable 'now' used in workflow guards is accessible from unguarded function 'proxyClaimTokens'",
+            "confidence": 0.65
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable 'receiverAddress' used in workflow guards is accessible from unguarded function 'proxyClaimTokens'",
+            "confidence": 0.65
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_7808cd544bf4",
+        "has_stg": true,
+        "states": 6,
+        "edges": 5,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Active' via function 'resume'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Suspended' via function 'suspend'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Completed' via function 'touch'",
+            "confidence": 0.95
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_b2853144fb1b",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_76192f52b743",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_850ce5cbe982",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_4a4bc45fd925",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_5ed8e1877520",
+        "has_stg": true,
+        "states": 4,
+        "edges": 4,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Completed' via function 'rewardAuditor'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Completed' via 'rewardAuditor' does not reset value-bearing state",
+            "confidence": 0.7
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable 'msg.value' used in workflow guards is accessible from unguarded function 'createAudit'",
+            "confidence": 0.65
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_21f75fe6f479",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_00aad096d3a6",
+        "has_stg": true,
+        "states": 5,
+        "edges": 1,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_c20439c5d7f2",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_dbcc8437f359",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_26a14a357637",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_ee6bd9c328ef",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_68aa9db55f07",
+        "has_stg": true,
+        "states": 5,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'AuctionSetUp' via function 'setup'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'AuctionStarted' via function 'startAuction'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable '_xrt' used in workflow guards is accessible from unguarded function 'setup'",
+            "confidence": 0.65
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_e4747c2afa8c",
+        "has_stg": true,
+        "states": 5,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'AuctionSetUp' via function 'setup'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'AuctionStarted' via function 'startAuction'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable '_xrt' used in workflow guards is accessible from unguarded function 'setup'",
+            "confidence": 0.65
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_9be82006ab69",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_b412e8686fb5",
+        "has_stg": true,
+        "states": 5,
+        "edges": 5,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'AuctionDeployed' via function 'GoTokenDutchAuction'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'AuctionStarted' via function 'startAuction'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'TokensDistributed' via function 'distributeGoTokens'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable '_wallet_address' used in workflow guards is accessible from unguarded function 'GoTokenDutchAuction'",
+            "confidence": 0.65
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable '_whitelister_address' used in workflow guards is accessible from unguarded function 'GoTokenDutchAuction'",
+            "confidence": 0.65
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable '_distributor_address' used in workflow guards is accessible from unguarded function 'GoTokenDutchAuction'",
+            "confidence": 0.65
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable '_token_address' used in workflow guards is accessible from unguarded function 'setup'",
+            "confidence": 0.65
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable 'now' used in workflow guards is accessible from unguarded function 'distributeGoTokens'",
+            "confidence": 0.65
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable 'receiver_address' used in workflow guards is accessible from unguarded function 'distributeGoTokens'",
+            "confidence": 0.65
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_8d4d4d69531e",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "kg_04016c320066",
+        "has_stg": true,
+        "states": 5,
+        "edges": 4,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'NOTSTARTED' via function 'FlexionCoin'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'PREICO' via function 'start_PREICO'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'ICO' via function 'start_ICO'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'ENDED' via function 'end_ICO'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'NOTSTARTED' via 'FlexionCoin' does not reset value-bearing state",
+            "confidence": 0.7
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'PREICO' via 'start_PREICO' does not reset value-bearing state",
+            "confidence": 0.7
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'ICO' via 'start_ICO' does not reset value-bearing state",
+            "confidence": 0.7
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable 'now' used in workflow guards is accessible from unguarded function 'start_ICO'",
+            "confidence": 0.65
+          },
+          {
+            "category": "FG-4",
+            "severity": 0.75,
+            "description": "Variable 'now' used in workflow guards is accessible from unguarded function 'end_ICO'",
+            "confidence": 0.65
+          }
+        ]
+      },
+      {
+        "contract_id": "kg_6f52f2ed7d6a",
+        "has_stg": true,
+        "states": 6,
+        "edges": 1,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'stage5' via function 'checkIfFundingCompleteOrExpired'",
+            "confidence": 0.95
+          }
+        ]
+      },
+      {
+        "contract_id": "aug_FG1_6eda9de2b750",
+        "has_stg": true,
+        "states": 4,
+        "edges": 1,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'House' via function 'fg1AugmentedBypass'",
+            "confidence": 0.95
+          }
+        ]
+      },
+      {
+        "contract_id": "aug_FG1_50995970d097",
+        "has_stg": true,
+        "states": 4,
+        "edges": 4,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Enabled' via function 'fg1AugmentedBypass'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-7",
+            "severity": 0.9,
+            "description": "Privilege escalation: state 'Enabled' requires privileged access via ['finishCrowdsale'] but is also reachable via unpri",
+            "confidence": 0.85
+          }
+        ]
+      },
+      {
+        "contract_id": "aug_FG1_a1d73e158d93",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "aug_FG1_7fa0bb138938",
+        "has_stg": true,
+        "states": 2,
+        "edges": 1,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'locked' via function 'fg1AugmentedBypass'",
+            "confidence": 0.95
+          }
+        ]
+      },
+      {
+        "contract_id": "aug_FG1_8f1687e252d1",
+        "has_stg": true,
+        "states": 5,
+        "edges": 4,
+        "findings": [
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Proposed' via function 'createProposal'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Passed' via function 'finishProposalVoting'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-1",
+            "severity": 0.98,
+            "description": "Unguarded transition to terminal state 'Executed' via function 'fg1AugmentedBypass'",
+            "confidence": 0.95
+          },
+          {
+            "category": "FG-2",
+            "severity": 0.85,
+            "description": "Guard inconsistency on transition __ANY__\u2192Executed: 'fg1AugmentedBypass' has weaker guards than 'executeProposal'",
+            "confidence": 1.0
+          },
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Executed' via 'executeProposal' does not reset value-bearing state",
+            "confidence": 0.7
+          },
+          {
+            "category": "FG-7",
+            "severity": 0.9,
+            "description": "Privilege escalation: state 'Executed' requires privileged access via ['executeProposal'] but is also reachable via unpr",
+            "confidence": 0.85
+          }
+        ]
+      },
+      {
+        "contract_id": "aug_FG2_a2f8b79ce74a",
+        "has_stg": true,
+        "states": 4,
+        "edges": 3,
+        "findings": []
+      },
+      {
+        "contract_id": "aug_FG2_b3c64b50fb98",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "aug_FG2_05919f16fd9e",
+        "has_stg": false,
+        "findings": []
+      },
+      {
+        "contract_id": "aug_FG2_21e3f1790dc3",
+        "has_stg": true,
+        "states": 3,
+        "edges": 2,
+        "findings": [
+          {
+            "category": "FG-3",
+            "severity": 0.8,
+            "description": "Transition to terminal state 'Finished' via 'finishPresale' does not reset value-bearing state",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "contract_id": "aug_FG2_d84689043be0",
+        "has_stg": false,
+        "findings": []
+      }
+    ],
+    "stg_extraction_rate": 0.17488789237668162,
+    "total_findings": 97
+  },
+  "E2": {
+    "total_contracts": 142,
+    "by_swc_category": {
+      "SWC-115": {
+        "count": 17,
+        "fg_detected": 0,
+        "fg_findings": []
+      },
+      "SWC-101": {
+        "count": 15,
+        "fg_detected": 0,
+        "fg_findings": []
+      },
+      "SWC-120": {
+        "count": 8,
+        "fg_detected": 0,
+        "fg_findings": []
+      },
+      "SWC-128": {
+        "count": 6,
+        "fg_detected": 0,
+        "fg_findings": []
+      },
+      "SWC-114": {
+        "count": 4,
+        "fg_detected": 0,
+        "fg_findings": []
+      },
+      "SWC-000": {
+        "count": 3,
+        "fg_detected": 0,
+        "fg_findings": []
+      },
+      "SWC-107": {
+        "count": 31,
+        "fg_detected": 0,
+        "fg_findings": []
+      },
+      "SWC-130": {
+        "count": 1,
+        "fg_detected": 0,
+        "fg_findings": []
+      },
+      "SWC-116": {
+        "count": 5,
+        "fg_detected": 0,
+        "fg_findings": []
+      },
+      "SWC-104": {
+        "count": 52,
+        "fg_detected": 0,
+        "fg_findings": []
+      }
+    },
+    "fg_findings_on_swc_contracts": {}
+  },
+  "E3": {
+    "n_samples": 2300,
+    "n_positive": 1320,
+    "n_negative": 980,
+    "n_folds": 5,
+    "per_fold": [
+      {
+        "isolation_forest": {
+          "auroc": 0.6233186456400742,
+          "f1": 0.3976945244956772,
+          "precision": 0.8313253012048193,
+          "recall": 0.26136363636363635,
+          "avg_precision": 0.7390858625750174
+        },
+        "autoencoder": {
+          "auroc": 0.6313775510204082,
+          "f1": 0.4379947229551451,
+          "precision": 0.7217391304347827,
+          "recall": 0.3143939393939394,
+          "avg_precision": 0.6979660999413939
+        },
+        "lof": {
+          "auroc": 0.524949752628324,
+          "f1": 0.02985074626865672,
+          "precision": 1.0,
+          "recall": 0.015151515151515152,
+          "avg_precision": 0.6354871693576851
+        },
+        "xgboost": {
+          "auroc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "avg_precision": 1.0
+        },
+        "ensemble": {
+          "auroc": 1.0,
+          "f1": 0.9502982107355865,
+          "precision": 1.0,
+          "recall": 0.9053030303030303,
+          "avg_precision": 1.0
+        },
+        "fold": 0
+      },
+      {
+        "isolation_forest": {
+          "auroc": 0.6632266542980828,
+          "f1": 0.45014245014245013,
+          "precision": 0.9080459770114943,
+          "recall": 0.29924242424242425,
+          "avg_precision": 0.7851121229633098
+        },
+        "autoencoder": {
+          "auroc": 0.6277829313543599,
+          "f1": 0.46875,
+          "precision": 0.75,
+          "recall": 0.3409090909090909,
+          "avg_precision": 0.7176759822272076
+        },
+        "lof": {
+          "auroc": 0.5223407544836116,
+          "f1": 0.06593406593406592,
+          "precision": 1.0,
+          "recall": 0.03409090909090909,
+          "avg_precision": 0.6324837229853923
+        },
+        "xgboost": {
+          "auroc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "avg_precision": 1.0
+        },
+        "ensemble": {
+          "auroc": 1.0,
+          "f1": 0.9667318982387475,
+          "precision": 1.0,
+          "recall": 0.9356060606060606,
+          "avg_precision": 1.0
+        },
+        "fold": 1
+      },
+      {
+        "isolation_forest": {
+          "auroc": 0.6428571428571429,
+          "f1": 0.41379310344827586,
+          "precision": 0.8571428571428571,
+          "recall": 0.2727272727272727,
+          "avg_precision": 0.7569015459702171
+        },
+        "autoencoder": {
+          "auroc": 0.6170570500927643,
+          "f1": 0.5038560411311054,
+          "precision": 0.784,
+          "recall": 0.3712121212121212,
+          "avg_precision": 0.7142764698280497
+        },
+        "lof": {
+          "auroc": 0.47984307359307365,
+          "f1": 0.044444444444444446,
+          "precision": 1.0,
+          "recall": 0.022727272727272728,
+          "avg_precision": 0.6048675225193385
+        },
+        "xgboost": {
+          "auroc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "avg_precision": 1.0
+        },
+        "ensemble": {
+          "auroc": 1.0,
+          "f1": 0.9606299212598425,
+          "precision": 1.0,
+          "recall": 0.9242424242424242,
+          "avg_precision": 1.0
+        },
+        "fold": 2
+      },
+      {
+        "isolation_forest": {
+          "auroc": 0.6282854050711194,
+          "f1": 0.38461538461538464,
+          "precision": 0.8783783783783784,
+          "recall": 0.24621212121212122,
+          "avg_precision": 0.7358326565112161
+        },
+        "autoencoder": {
+          "auroc": 0.5967648423005567,
+          "f1": 0.4461942257217848,
+          "precision": 0.7264957264957265,
+          "recall": 0.32196969696969696,
+          "avg_precision": 0.6545557968379054
+        },
+        "lof": {
+          "auroc": 0.43894944341372905,
+          "f1": 0.02247191011235955,
+          "precision": 1.0,
+          "recall": 0.011363636363636364,
+          "avg_precision": 0.5353772822994475
+        },
+        "xgboost": {
+          "auroc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "avg_precision": 1.0
+        },
+        "ensemble": {
+          "auroc": 1.0,
+          "f1": 0.962671905697446,
+          "precision": 1.0,
+          "recall": 0.928030303030303,
+          "avg_precision": 1.0
+        },
+        "fold": 3
+      },
+      {
+        "isolation_forest": {
+          "auroc": 0.6299281076066789,
+          "f1": 0.4035087719298246,
+          "precision": 0.8846153846153846,
+          "recall": 0.26136363636363635,
+          "avg_precision": 0.7479289174631532
+        },
+        "autoencoder": {
+          "auroc": 0.630053726035869,
+          "f1": 0.4659685863874345,
+          "precision": 0.7542372881355932,
+          "recall": 0.3371212121212121,
+          "avg_precision": 0.7137884994414738
+        },
+        "lof": {
+          "auroc": 0.4821815089672233,
+          "f1": 0.07299270072992702,
+          "precision": 1.0,
+          "recall": 0.03787878787878788,
+          "avg_precision": 0.5985427628309803
+        },
+        "xgboost": {
+          "auroc": 1.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "avg_precision": 1.0
+        },
+        "ensemble": {
+          "auroc": 1.0,
+          "f1": 0.96875,
+          "precision": 1.0,
+          "recall": 0.9393939393939394,
+          "avg_precision": 1.0
+        },
+        "fold": 4
+      }
+    ],
+    "average": {
+      "isolation_forest": {
+        "auroc": {
+          "mean": 0.6375231910946196,
+          "std": 0.01437991764532553
+        },
+        "f1": {
+          "mean": 0.4099508469263225,
+          "std": 0.022197888748962273
+        },
+        "precision": {
+          "mean": 0.8719015796705868,
+          "std": 0.02597791939934774
+        },
+        "recall": {
+          "mean": 0.2681818181818182,
+          "std": 0.017669551196500915
+        }
+      },
+      "xgboost": {
+        "auroc": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "f1": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "precision": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "recall": {
+          "mean": 1.0,
+          "std": 0.0
+        }
+      },
+      "ensemble": {
+        "auroc": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "f1": {
+          "mean": 0.9618163871863246,
+          "std": 0.006434986210154102
+        },
+        "precision": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "recall": {
+          "mean": 0.9265151515151515,
+          "std": 0.011882111470725862
+        }
+      },
+      "lof": {
+        "auroc": {
+          "mean": 0.4896529066171923,
+          "std": 0.031740379720796415
+        },
+        "f1": {
+          "mean": 0.04713877349789073,
+          "std": 0.019678811015344456
+        },
+        "precision": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "recall": {
+          "mean": 0.024242424242424242,
+          "std": 0.01033195583104989
+        }
+      },
+      "autoencoder": {
+        "auroc": {
+          "mean": 0.6206072201607917,
+          "std": 0.012944419807385088
+        },
+        "f1": {
+          "mean": 0.4645527152390939,
+          "std": 0.02283302173676507
+        },
+        "precision": {
+          "mean": 0.7472944290132204,
+          "std": 0.022309108724767324
+        },
+        "recall": {
+          "mean": 0.3371212121212121,
+          "std": 0.019609362281128462
+        }
+      }
+    }
+  },
+  "E4": {
+    "configs": {
+      "static_only": {
+        "auroc": 0.2990105132962276,
+        "f1": 0.7292817679558011,
+        "precision": 0.5739130434782609,
+        "recall": 1.0,
+        "accuracy": 0.5739130434782609,
+        "threshold": 0.0
+      },
+      "behavioral_only": {
+        "auroc": 0.9999992269635126,
+        "f1": 0.9996213555471413,
+        "precision": 0.9992429977289932,
+        "recall": 1.0,
+        "accuracy": 0.9995652173913043,
+        "threshold": 0.4667202402767192
+      },
+      "full_fusion": {
+        "auroc": 0.52319573283859,
+        "f1": 0.7719298245614035,
+        "precision": 0.6285714285714286,
+        "recall": 1.0,
+        "accuracy": 0.6608695652173913,
+        "threshold": 0.1661400957367889
+      }
+    },
+    "thresholds": {
+      "static_only": 0.0,
+      "behavioral_only": 0.4667202402767192,
+      "full_fusion": 0.1661400957367889
+    },
+    "fusion_lift_f1": -0.2276915309857378,
+    "bootstrap": {
+      "mean_lift": -0.22788723920403017,
+      "std_lift": 0.008158515581586165,
+      "p_value": 1.0,
+      "significant": false
+    }
+  },
+  "E5": {
+    "CR7": {
+      "trigger_count": 132,
+      "mean_fused_score": 0.502077952709343,
+      "std_fused_score": 0.22550469016793245
+    },
+    "CR1": {
+      "trigger_count": 90,
+      "mean_fused_score": 0.7339070696673775,
+      "std_fused_score": 0.07263079197460422
+    },
+    "CR5": {
+      "trigger_count": 114,
+      "mean_fused_score": 0.6814322751944344,
+      "std_fused_score": 0.09199547013790085
+    },
+    "CR3": {
+      "trigger_count": 14,
+      "mean_fused_score": 0.730300228134222,
+      "std_fused_score": 0.02077481179381728
+    },
+    "CR4": {
+      "trigger_count": 3,
+      "mean_fused_score": 0.6974679005982853,
+      "std_fused_score": 0.02312864430360627
+    }
+  },
+  "E6": {
+    "contracts_measured": 120,
+    "parse_time": {
+      "mean": 0.06486218416666698,
+      "median": 0.0005860499999954527,
+      "p95": 0.01362673000000704
+    },
+    "stg_build_time": {
+      "mean": 6.104166667360763e-06,
+      "median": 3.4999999911633495e-06,
+      "p95": 2.1719999998026646e-05
+    },
+    "detection_time": {
+      "mean": 1.2916666657739977e-07,
+      "median": 9.999999406318238e-08,
+      "p95": 2.0500001483014755e-07
+    },
+    "total_static_time": {
+      "mean": 0.06486841750000091,
+      "median": 0.000588950000022237,
+      "p95": 0.013634180000006704,
+      "pct_under_1s": 0.9666666666666667
+    }
+  },
+  "E7": {
+    "full_system_f1": 0.41976316864026136,
+    "ablations": {
+      "no_transaction_pattern": {
+        "f1": 0.419063270336894,
+        "delta_f1": 0.0006998983033673634
+      },
+      "no_state_interaction": {
+        "f1": 0.4163934426229508,
+        "delta_f1": 0.003369726017310559
+      },
+      "no_role_access": {
+        "f1": 0.41466395112016297,
+        "delta_f1": 0.005099217520098398
+      },
+      "no_value_economic": {
+        "f1": 0.4196827978853193,
+        "delta_f1": 8.03707549420496e-05
+      },
+      "no_correlation": {
+        "f1": 0.47068338050950265,
+        "delta_f1": -0.05092021186924128
+      }
+    }
+  }
+}

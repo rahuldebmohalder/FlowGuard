@@ -1,0 +1,1235 @@
+[
+  {
+    "contract_id": "kg_d65a20e36bb3",
+    "dataset": "sc_vuln",
+    "n_states": 4,
+    "n_transitions": 3,
+    "fg_labels": [],
+    "confidence": 0.0,
+    "review_priority": "low",
+    "findings": []
+  },
+  {
+    "contract_id": "kg_d260612bd717",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 3,
+    "fg_labels": [
+      "FG-1",
+      "FG-3"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Proposed' via function 'createProposal'",
+        "affected_functions": [
+          "createProposal"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Passed' via function 'finishProposalVoting'",
+        "affected_functions": [
+          "finishProposalVoting"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Executed' via function 'executeProposal'",
+        "affected_functions": [
+          "executeProposal"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Executed' via 'executeProposal' does not reset value-bearing state",
+        "affected_functions": [
+          "executeProposal"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_59e2a243ff9b",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 3,
+    "fg_labels": [
+      "FG-1",
+      "FG-3"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Proposed' via function 'createProposal'",
+        "affected_functions": [
+          "createProposal"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Passed' via function 'finishProposalVoting'",
+        "affected_functions": [
+          "finishProposalVoting"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Executed' via function 'executeProposal'",
+        "affected_functions": [
+          "executeProposal"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Executed' via 'executeProposal' does not reset value-bearing state",
+        "affected_functions": [
+          "executeProposal"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_ebe6f9a7e97a",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-3"
+    ],
+    "confidence": 0.8,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Finished' via 'finishPresale' does not reset value-bearing state",
+        "affected_functions": [
+          "finishPresale"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_4219abdc067e",
+    "dataset": "sc_vuln",
+    "n_states": 2,
+    "n_transitions": 1,
+    "fg_labels": [
+      "FG-3"
+    ],
+    "confidence": 0.8,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'ICO' via 'startICO' does not reset value-bearing state",
+        "affected_functions": [
+          "startICO"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_eaaebcb18bf2",
+    "dataset": "sc_vuln",
+    "n_states": 4,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'AwaitingTokens' via function 'Distribution'",
+        "affected_functions": [
+          "Distribution"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Done' via function 'doDistributionRange'",
+        "affected_functions": [
+          "doDistributionRange"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'AwaitingTokens' via 'Distribution' does not reset value-bearing state",
+        "affected_functions": [
+          "Distribution"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable 'contributors.length' used in workflow guards is accessible from unguarded function 'doDistributionRange'",
+        "affected_functions": [
+          "doDistributionRange",
+          "doDistributionRange"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_72e56082535d",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-3"
+    ],
+    "confidence": 0.8,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+        "affected_functions": [
+          "close"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_8c2ebbd677b0",
+    "dataset": "sc_vuln",
+    "n_states": 29,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-1"
+    ],
+    "confidence": 0.98,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'stage5' via function 'changeStage'",
+        "affected_functions": [
+          "changeStage"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'completed' via function 'completeStatus'",
+        "affected_functions": [
+          "completeStatus"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_5b48b45c42ff",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 3,
+    "fg_labels": [
+      "FG-1",
+      "FG-3"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Proposed' via function 'createProposal'",
+        "affected_functions": [
+          "createProposal"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Passed' via function 'finishProposalVoting'",
+        "affected_functions": [
+          "finishProposalVoting"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Executed' via function 'executeProposal'",
+        "affected_functions": [
+          "executeProposal"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Executed' via 'executeProposal' does not reset value-bearing state",
+        "affected_functions": [
+          "executeProposal"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_cb3b1d1a0122",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 1,
+    "fg_labels": [
+      "FG-1"
+    ],
+    "confidence": 0.98,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'erWinner' via function 'winnerDecided'",
+        "affected_functions": [
+          "winnerDecided"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_a0fec05e38bb",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-3"
+    ],
+    "confidence": 0.8,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+        "affected_functions": [
+          "close"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_5e58ddf7a0e7",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 3,
+    "fg_labels": [],
+    "confidence": 0.0,
+    "review_priority": "low",
+    "findings": []
+  },
+  {
+    "contract_id": "kg_01585b6ec1bb",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 5,
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-7"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Canceled' via function 'cancelPayment'",
+        "affected_functions": [
+          "cancelPayment"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Paid' via 'collectPayment' does not reset value-bearing state",
+        "affected_functions": [
+          "collectPayment"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Paid' via 'approvePayment' does not reset value-bearing state",
+        "affected_functions": [
+          "approvePayment"
+        ]
+      },
+      {
+        "category": "FG-7",
+        "severity": 0.9,
+        "confidence": 0.85,
+        "description": "Privilege escalation: state 'Paid' requires privileged access via ['approvePayment'] but is also reachable via unprivileged ['collectPayment']",
+        "affected_functions": [
+          "approvePayment",
+          "collectPayment"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_7b7f1764c212",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-3"
+    ],
+    "confidence": 0.8,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+        "affected_functions": [
+          "close"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_fdaf0fa7538f",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 1,
+    "fg_labels": [],
+    "confidence": 0.0,
+    "review_priority": "low",
+    "findings": []
+  },
+  {
+    "contract_id": "kg_36cce373c38e",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-3"
+    ],
+    "confidence": 0.8,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+        "affected_functions": [
+          "close"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_49a1d5c351b9",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-3"
+    ],
+    "confidence": 0.8,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+        "affected_functions": [
+          "close"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_0a9aebf5e803",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-3"
+    ],
+    "confidence": 0.8,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+        "affected_functions": [
+          "close"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_7d0c398264c2",
+    "dataset": "sc_vuln",
+    "n_states": 4,
+    "n_transitions": 3,
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'PREICO' via function 'start_PREICO'",
+        "affected_functions": [
+          "start_PREICO"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'ICO' via function 'start_ICO'",
+        "affected_functions": [
+          "start_ICO"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'ENDED' via function 'end_ICO'",
+        "affected_functions": [
+          "end_ICO"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'PREICO' via 'start_PREICO' does not reset value-bearing state",
+        "affected_functions": [
+          "start_PREICO"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'ICO' via 'start_ICO' does not reset value-bearing state",
+        "affected_functions": [
+          "start_ICO"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable 'now' used in workflow guards is accessible from unguarded function 'end_ICO'",
+        "affected_functions": [
+          "end_ICO",
+          "end_ICO"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_de0a9f8c2bb3",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-3"
+    ],
+    "confidence": 0.8,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'CLOSED' via 'close' does not reset value-bearing state",
+        "affected_functions": [
+          "close"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_63f378ce703f",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 1,
+    "fg_labels": [
+      "FG-1"
+    ],
+    "confidence": 0.98,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Closed' via function 'finalize'",
+        "affected_functions": [
+          "finalize"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_b463f6306f54",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Expired' via function 'emergencyStop'",
+        "affected_functions": [
+          "emergencyStop"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Funded' via function 'buyTokens'",
+        "affected_functions": [
+          "buyTokens"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Funded' via 'buyTokens' does not reset value-bearing state",
+        "affected_functions": [
+          "buyTokens"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable '_beneficiary' used in workflow guards is accessible from unguarded function 'buyTokens'",
+        "affected_functions": [
+          "buyTokens",
+          "buyTokens"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_4145f01120ea",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 5,
+    "fg_labels": [
+      "FG-1",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'AuctionDeployed' via function 'DutchAuction'",
+        "affected_functions": [
+          "DutchAuction"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'AuctionSetUp' via function 'setup'",
+        "affected_functions": [
+          "setup"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'AuctionStarted' via function 'startAuction'",
+        "affected_functions": [
+          "startAuction"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'AuctionEnded' via function 'finalizeAuction'",
+        "affected_functions": [
+          "finalizeAuction"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'TokensDistributed' via function 'proxyClaimTokens'",
+        "affected_functions": [
+          "proxyClaimTokens"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable '_walletAddress' used in workflow guards is accessible from unguarded function 'DutchAuction'",
+        "affected_functions": [
+          "DutchAuction",
+          "DutchAuction"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable '_tokenAddress' used in workflow guards is accessible from unguarded function 'setup'",
+        "affected_functions": [
+          "setup",
+          "setup"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable 'missingFunds' used in workflow guards is accessible from unguarded function 'finalizeAuction'",
+        "affected_functions": [
+          "finalizeAuction",
+          "finalizeAuction"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable 'now' used in workflow guards is accessible from unguarded function 'proxyClaimTokens'",
+        "affected_functions": [
+          "proxyClaimTokens",
+          "proxyClaimTokens"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable 'receiverAddress' used in workflow guards is accessible from unguarded function 'proxyClaimTokens'",
+        "affected_functions": [
+          "proxyClaimTokens",
+          "proxyClaimTokens"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_7808cd544bf4",
+    "dataset": "sc_vuln",
+    "n_states": 6,
+    "n_transitions": 5,
+    "fg_labels": [
+      "FG-1"
+    ],
+    "confidence": 0.98,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Active' via function 'resume'",
+        "affected_functions": [
+          "resume"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Suspended' via function 'suspend'",
+        "affected_functions": [
+          "suspend"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Completed' via function 'touch'",
+        "affected_functions": [
+          "touch"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_850ce5cbe982",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-3"
+    ],
+    "confidence": 0.8,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+        "affected_functions": [
+          "close"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_4a4bc45fd925",
+    "dataset": "sc_vuln",
+    "n_states": 3,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-3"
+    ],
+    "confidence": 0.8,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Closed' via 'close' does not reset value-bearing state",
+        "affected_functions": [
+          "close"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_5ed8e1877520",
+    "dataset": "sc_vuln",
+    "n_states": 4,
+    "n_transitions": 4,
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'Completed' via function 'rewardAuditor'",
+        "affected_functions": [
+          "rewardAuditor"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'Completed' via 'rewardAuditor' does not reset value-bearing state",
+        "affected_functions": [
+          "rewardAuditor"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable 'msg.value' used in workflow guards is accessible from unguarded function 'createAudit'",
+        "affected_functions": [
+          "createAudit",
+          "createAudit",
+          "stake"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_00aad096d3a6",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 1,
+    "fg_labels": [],
+    "confidence": 0.0,
+    "review_priority": "low",
+    "findings": []
+  },
+  {
+    "contract_id": "kg_68aa9db55f07",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-1",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'AuctionSetUp' via function 'setup'",
+        "affected_functions": [
+          "setup"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'AuctionStarted' via function 'startAuction'",
+        "affected_functions": [
+          "startAuction"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable '_xrt' used in workflow guards is accessible from unguarded function 'setup'",
+        "affected_functions": [
+          "setup",
+          "setup"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_e4747c2afa8c",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 2,
+    "fg_labels": [
+      "FG-1",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'AuctionSetUp' via function 'setup'",
+        "affected_functions": [
+          "setup"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'AuctionStarted' via function 'startAuction'",
+        "affected_functions": [
+          "startAuction"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable '_xrt' used in workflow guards is accessible from unguarded function 'setup'",
+        "affected_functions": [
+          "setup",
+          "setup"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_b412e8686fb5",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 5,
+    "fg_labels": [
+      "FG-1",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'AuctionDeployed' via function 'GoTokenDutchAuction'",
+        "affected_functions": [
+          "GoTokenDutchAuction"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'AuctionStarted' via function 'startAuction'",
+        "affected_functions": [
+          "startAuction"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'TokensDistributed' via function 'distributeGoTokens'",
+        "affected_functions": [
+          "distributeGoTokens"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable '_wallet_address' used in workflow guards is accessible from unguarded function 'GoTokenDutchAuction'",
+        "affected_functions": [
+          "GoTokenDutchAuction",
+          "GoTokenDutchAuction"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable '_whitelister_address' used in workflow guards is accessible from unguarded function 'GoTokenDutchAuction'",
+        "affected_functions": [
+          "GoTokenDutchAuction",
+          "GoTokenDutchAuction"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable '_distributor_address' used in workflow guards is accessible from unguarded function 'GoTokenDutchAuction'",
+        "affected_functions": [
+          "GoTokenDutchAuction",
+          "GoTokenDutchAuction"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable '_token_address' used in workflow guards is accessible from unguarded function 'setup'",
+        "affected_functions": [
+          "setup",
+          "setup"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable 'now' used in workflow guards is accessible from unguarded function 'distributeGoTokens'",
+        "affected_functions": [
+          "distributeGoTokens",
+          "distributeGoTokens"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable 'receiver_address' used in workflow guards is accessible from unguarded function 'distributeGoTokens'",
+        "affected_functions": [
+          "distributeGoTokens",
+          "distributeGoTokens"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_04016c320066",
+    "dataset": "sc_vuln",
+    "n_states": 5,
+    "n_transitions": 4,
+    "fg_labels": [
+      "FG-1",
+      "FG-3",
+      "FG-4"
+    ],
+    "confidence": 1.0,
+    "review_priority": "high",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'NOTSTARTED' via function 'FlexionCoin'",
+        "affected_functions": [
+          "FlexionCoin"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'PREICO' via function 'start_PREICO'",
+        "affected_functions": [
+          "start_PREICO"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'ICO' via function 'start_ICO'",
+        "affected_functions": [
+          "start_ICO"
+        ]
+      },
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'ENDED' via function 'end_ICO'",
+        "affected_functions": [
+          "end_ICO"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'NOTSTARTED' via 'FlexionCoin' does not reset value-bearing state",
+        "affected_functions": [
+          "FlexionCoin"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'PREICO' via 'start_PREICO' does not reset value-bearing state",
+        "affected_functions": [
+          "start_PREICO"
+        ]
+      },
+      {
+        "category": "FG-3",
+        "severity": 0.8,
+        "confidence": 0.7,
+        "description": "Transition to terminal state 'ICO' via 'start_ICO' does not reset value-bearing state",
+        "affected_functions": [
+          "start_ICO"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable 'now' used in workflow guards is accessible from unguarded function 'start_ICO'",
+        "affected_functions": [
+          "start_ICO",
+          "start_ICO",
+          "end_ICO"
+        ]
+      },
+      {
+        "category": "FG-4",
+        "severity": 0.75,
+        "confidence": 0.65,
+        "description": "Variable 'now' used in workflow guards is accessible from unguarded function 'end_ICO'",
+        "affected_functions": [
+          "end_ICO",
+          "start_ICO",
+          "end_ICO"
+        ]
+      }
+    ]
+  },
+  {
+    "contract_id": "kg_6f52f2ed7d6a",
+    "dataset": "sc_vuln",
+    "n_states": 6,
+    "n_transitions": 1,
+    "fg_labels": [
+      "FG-1"
+    ],
+    "confidence": 0.98,
+    "review_priority": "medium",
+    "findings": [
+      {
+        "category": "FG-1",
+        "severity": 0.98,
+        "confidence": 0.95,
+        "description": "Unguarded transition to terminal state 'stage5' via function 'checkIfFundingCompleteOrExpired'",
+        "affected_functions": [
+          "checkIfFundingCompleteOrExpired"
+        ]
+      }
+    ]
+  }
+]

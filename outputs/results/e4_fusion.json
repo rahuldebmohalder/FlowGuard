@@ -1,0 +1,40 @@
+{
+  "configs": {
+    "static_only": {
+      "auroc": 0.2990105132962276,
+      "f1": 0.7292817679558011,
+      "precision": 0.5739130434782609,
+      "recall": 1.0,
+      "accuracy": 0.5739130434782609,
+      "threshold": 0.0
+    },
+    "behavioral_only": {
+      "auroc": 0.9999992269635126,
+      "f1": 0.9996213555471413,
+      "precision": 0.9992429977289932,
+      "recall": 1.0,
+      "accuracy": 0.9995652173913043,
+      "threshold": 0.4667202402767192
+    },
+    "full_fusion": {
+      "auroc": 0.52319573283859,
+      "f1": 0.7719298245614035,
+      "precision": 0.6285714285714286,
+      "recall": 1.0,
+      "accuracy": 0.6608695652173913,
+      "threshold": 0.1661400957367889
+    }
+  },
+  "thresholds": {
+    "static_only": 0.0,
+    "behavioral_only": 0.4667202402767192,
+    "full_fusion": 0.1661400957367889
+  },
+  "fusion_lift_f1": -0.2276915309857378,
+  "bootstrap": {
+    "mean_lift": -0.22788723920403017,
+    "std_lift": 0.008158515581586165,
+    "p_value": 1.0,
+    "significant": false
+  }
+}

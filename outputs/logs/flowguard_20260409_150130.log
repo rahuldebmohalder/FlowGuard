@@ -1,0 +1,10 @@
+[15:01:30] flowguard — INFO — FlowGuard v1.0.0 — REAL UPLOADED DATASETS
+[15:01:30] flowguard — INFO — PHASE 1: Loading Real Datasets
+[15:01:30] flowguard.datasets — INFO — SmartBugs Curated: loaded 143 contracts
+[15:01:31] flowguard.datasets — INFO — sc_vuln: loaded 74 unique contracts
+[15:01:31] flowguard.datasets — WARNING — ScrawlD path not found
+[15:01:31] flowguard — INFO — Real Contracts with Source Code
+[15:01:31] flowguard — INFO —   SmartBugs: 143 contracts
+[15:01:31] flowguard — INFO —   Kaggle:    74 contracts
+[15:01:31] flowguard — INFO —   TOTAL:     217 contracts
+[15:01:31] flowguard — INFO — Vulnerability Labels (no source)

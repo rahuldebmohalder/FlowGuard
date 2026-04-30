@@ -1,0 +1,56 @@
+{
+  "total_contracts": 142,
+  "by_swc_category": {
+    "SWC-115": {
+      "count": 17,
+      "fg_detected": 0,
+      "fg_findings": []
+    },
+    "SWC-101": {
+      "count": 15,
+      "fg_detected": 0,
+      "fg_findings": []
+    },
+    "SWC-120": {
+      "count": 8,
+      "fg_detected": 0,
+      "fg_findings": []
+    },
+    "SWC-128": {
+      "count": 6,
+      "fg_detected": 0,
+      "fg_findings": []
+    },
+    "SWC-114": {
+      "count": 4,
+      "fg_detected": 0,
+      "fg_findings": []
+    },
+    "SWC-000": {
+      "count": 3,
+      "fg_detected": 0,
+      "fg_findings": []
+    },
+    "SWC-107": {
+      "count": 31,
+      "fg_detected": 0,
+      "fg_findings": []
+    },
+    "SWC-130": {
+      "count": 1,
+      "fg_detected": 0,
+      "fg_findings": []
+    },
+    "SWC-116": {
+      "count": 5,
+      "fg_detected": 0,
+      "fg_findings": []
+    },
+    "SWC-104": {
+      "count": 52,
+      "fg_detected": 0,
+      "fg_findings": []
+    }
+  },
+  "fg_findings_on_swc_contracts": {}
+}

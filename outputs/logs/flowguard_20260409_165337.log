@@ -1,0 +1,24 @@
+[16:53:37] flowguard — INFO — FlowGuard v1.0.0 — REAL UPLOADED DATASETS
+[16:53:37] flowguard — INFO — PHASE 1: Loading Real Datasets
+[16:53:37] flowguard.datasets — INFO — SmartBugs Curated: loaded 143 contracts
+[16:53:38] flowguard.datasets — INFO — sc_vuln: loaded 74 unique contracts
+[16:53:38] flowguard.datasets — INFO — ScrawlD: 9252 addresses, 5664 labeled (no source code)
+[16:53:38] flowguard — INFO — Real Contracts with Source Code
+[16:53:38] flowguard — INFO —   SmartBugs: 143 contracts
+[16:53:38] flowguard — INFO —   SC Vuln:    74 contracts
+[16:53:38] flowguard — INFO —   TOTAL:     217 contracts
+[16:53:38] flowguard — INFO — Vulnerability Labels (no source)
+[16:53:38] flowguard — INFO —   ScrawlD:   5664 contracts
+[16:53:38] flowguard — INFO —     ARTHM: 3956
+[16:53:38] flowguard — INFO —     LE: 1696
+[16:53:38] flowguard — INFO —     TimeO: 1106
+[16:53:38] flowguard — INFO —     RENT: 654
+[16:53:38] flowguard — INFO —     TimeM: 145
+[16:53:38] flowguard — INFO —     UE: 18
+[16:53:38] flowguard — INFO —     TX-Origin: 5
+[16:53:38] flowguard — INFO — Enum-bearing (STG candidates)
+[16:53:38] flowguard — INFO —   SmartBugs enum: 1
+[16:53:38] flowguard — INFO —   sc_vuln enum:    74
+[16:53:38] flowguard — INFO —   TOTAL enum:     75
+[16:53:38] flowguard — INFO — PHASE 2: Workflow Annotation Layer
+[16:53:38] flowguard.parser — INFO — Slither not installed — regex parser will be used
